@@ -4,5 +4,5 @@ A simple page about cats.
 
 ## Author
 
-- @Aquaticat - Idea & Design
-- @BeiyanYunyi - Idea & Coding
+- [@Aquaticat](https://github.com/Aquaticat/) - Idea & Design
+- [@BeiyanYunyi](https://github.com/BeiyanYunyi/) - Idea & Coding
