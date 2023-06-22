@@ -1,6 +1,6 @@
 # Become Cat
 
-A simple page about cats.
+A simple page about becoming cats.
 
 ## Author
 
