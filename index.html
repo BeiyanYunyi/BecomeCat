@@ -7,7 +7,13 @@
     <title>BecomeCat</title>
   </head>
   <body class="m-0">
+    <!--For PC-->
     <main class="hidden lg:(flex h-100vh)">
+      <div class="absolute w-full h-[50vh] flex items-center justify-center">
+        <p class="font-(mono 700) text-(5xl white) my-0 capitalize text-stroke-(2 [#a6009f])">
+          No Permission<span class="text-[#ffbdfd]">!!</span>
+        </p>
+      </div>
       <div class="flex-grow bg-[#6d0069] flex flex-col items-center justify-center">
         <img src="/src/CatEars.svg" />
         <a
@@ -18,11 +24,39 @@
         >
       </div>
       <div class="flex-grow bg-[#ffbdfd] flex flex-col items-center justify-center">
-        <p
-          class="case-upper font-(mono 700) text-([#a6009f] [2rem]) border-[4px] border-solid border-[#a6009f] border-opacity-50 rounded-lg"
+        <a
+          href="https://mtf.wiki"
+          target="_blank"
+          class="case-upper decoration-none font-(mono 700) text-([#a6009f] [2rem]) border-[4px] border-solid border-[#a6009f] border-opacity-50 rounded-lg px-4 py-2"
         >
           Become a catgirl →
+        </a>
+      </div>
+    </main>
+    <!--For phones-->
+    <main class="block h-100vh bg-[#3c0039] lg:(hidden h-0)">
+      <div class="flex flex-col items-center justify-around h-full">
+        <p
+          class="text-center w-full font-mono font-700 text-4xl capitalize text-white -tracking-[0.09rem]"
+        >
+          No Permission<span class="text-[#ffbdfd]">!!</span>
         </p>
+        <div class="flex flex-col items-center">
+          <img class="w-38" width="152" src="/src/CatEars.svg" />
+          <a
+            target="_blank"
+            href="https://github.com/BeiyanYunyi/BecomeCat"
+            class="font-inter text-[#f5f5f5] text-xl mt-8"
+            >Only open to catgirls. ↗</a
+          >
+        </div>
+        <a
+          href="https://mtf.wiki"
+          target="_blank"
+          class="case-upper decoration-none font-(mono 700) text-([#ffbdfd] xl) border-([3px] solid [#ffbdfd]) rounded-lg px-4 py-2"
+        >
+          Become a catgirl →
+        </a>
       </div>
     </main>
     <script type="module" src="/src/main.ts"></script>

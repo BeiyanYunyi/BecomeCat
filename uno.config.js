@@ -5,7 +5,7 @@ export default defineConfig({
     presetWind(),
     presetWebFonts({
       provider: 'google',
-      fonts: { inter: { name: 'Inter' }, mono: { name: 'JetBrains Mono' } },
+      fonts: { inter: { name: 'Inter' }, mono: { name: 'JetBrains Mono', weights: [700] } },
     }),
   ],
   transformers: [transformerVariantGroup()],
